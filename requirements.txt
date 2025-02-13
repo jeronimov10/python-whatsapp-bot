@@ -1,5 +1,9 @@
-flask
-python-dotenv
-openai
-aiohttp
-requests
+flask==2.0.1
+python-dotenv==0.19.0
+requests==2.26.0
+openai==1.3.0
+Pillow==8.3.2
+PyMuPDF==1.19.1
+pandas==1.3.3
+python-magic==0.4.24
+aiohttp==3.8.1
