@@ -6,7 +6,7 @@ import sys
 def load_configurations(app):
     load_dotenv()
     app.config.update(
-        OPENAI_API_KEY=os.getenv("OPENAI_API_KEY"),
+        OPENAI_API_KEY=os.getenv("OPENAI_API_KEY"), 
         WHATSAPP_ACCESS_TOKEN=os.getenv("WHATSAPP_ACCESS_TOKEN"),
         PHONE_NUMBER_ID=os.getenv("PHONE_NUMBER_ID"),
         APP_SECRET=os.getenv("APP_SECRET"),
